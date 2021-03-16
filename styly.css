@@ -16,7 +16,8 @@ body {
   background: linear-gradient(#615dad, #ffc8da);
 }
 
-main {
+.kontejner {
+  display: flex;
   width: 550px;
   height: 700px;
   margin: 80px auto;
@@ -74,7 +75,7 @@ nav {
 
 .pravidla {
   font-size: 25px;
-  background-color: #1fcca4;
+  background-color: red;
   border-bottom: 1px solid black;
 }
 
