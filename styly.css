@@ -15,6 +15,7 @@ body {
 body {
   background: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
+  background-color: #ffc8da;
 }
 
 .kontejner {
