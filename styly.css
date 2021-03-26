@@ -198,3 +198,44 @@ nav {
 .odkazy-pravidla__zacithrat a:hover {
   background-color: #0090e9;
 }
+
+/* --úzká obrazovka-- */
+@media (max-width: 500px) {
+  .uvodni {
+    width: 320px;
+    height: 680px;
+    margin: 40px auto;
+  }
+
+  .obrazek {
+    height: 180px;
+  }
+
+  section {
+    height: 400px;
+  }
+  body {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .pravidla {
+    width: 320px;
+    height: 3750px;
+    margin: 0 auto;
+  }
+
+  .pravidla-hry {
+    height: 3650px;
+  }
+
+  .obrazky-hry {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  figure {
+    width: 270px;
+  }
+  figcaption {
+    width: 270px;
+  }
+}
