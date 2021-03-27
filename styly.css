@@ -100,7 +100,8 @@ nav {
   background-color: #0090e9;
 }
 
-/* --------stránka s pravidly--------------- */
+/* -------stránka s pravidly------- */
+/* široká i velmi široká obrazovka */
 
 .pravidla {
   width: 800px;
@@ -200,7 +201,7 @@ nav {
 }
 
 /* --úzká obrazovka-- */
-@media (max-width: 500px) {
+@media (max-width: 540px) {
   .uvodni {
     width: 320px;
     height: 680px;
