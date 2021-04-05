@@ -13,10 +13,10 @@ body {
 }
 
 body {
-  background: linear-gradient(#615dad, #ffc8da);
+  background-image: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
-  background-color: #ffc8da;
-  height: 100vh;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 /* --------úvodní stránka--------------- */
@@ -36,7 +36,7 @@ header img {
   border-radius: 10px 10px 0 0;
 }
 
-section {
+.sekce {
   height: 300px;
   background-color: #283e50;
   color: #ffffff;
@@ -200,6 +200,96 @@ nav {
   background-color: #0090e9;
 }
 
+/* -------stránka s hrou------- */
+/* široká i velmi široká obrazovka */
+
+.hra {
+  max-width: 80vmin;
+  margin: 40px auto;
+}
+
+.menu {
+  height: 10%;
+}
+
+.nadpis-hra {
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__info {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.hraje {
+  margin: 22px 0 auto;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.odkazy-hra__uvodni {
+  background-color: #1fcca4;
+  border-radius: 5px;
+}
+
+.odkazy-hra__uvodni a:hover {
+  background-color: #1cbb96;
+  border-radius: 5px;
+}
+.odkazy-hra__uvodni a:focus {
+  background-color: #1cbb96;
+  border-radius: 5px;
+}
+
+.odkazy-hra__restart {
+  background-color: #0197f6;
+  border-radius: 5px;
+}
+
+.odkazy-hra__restart a:hover {
+  background-color: #0090e9;
+  border-radius: 5px;
+}
+.odkazy-hra__restart a:focus {
+  background-color: #0090e9;
+  border-radius: 5px;
+}
+
+.odkazy-hra li {
+  display: inline-block;
+}
+
+.odkazy-hra a {
+  display: block;
+  padding: 9px;
+  text-align: center;
+}
+
+.pole {
+  min-height: 80vmin;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.policko {
+  width: 10%;
+  border: 1px solid black;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.policko:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.policko:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 /* --úzká obrazovka-- */
 @media (max-width: 540px) {
   .uvodni {
@@ -212,7 +302,7 @@ nav {
     height: 180px;
   }
 
-  section {
+  .sekce {
     height: 400px;
   }
   body {
