@@ -91,12 +91,20 @@ nav {
   background-color: #1cbb96;
 }
 
+.odkazy__pravidla a:focus {
+  background-color: #1cbb96;
+}
+
 .odkazy__zacithrat {
   font-size: 20px;
   background-color: #0197f6;
 }
 
 .odkazy__zacithrat a:hover {
+  background-color: #0090e9;
+}
+
+.odkazy__zacithrat a:focus {
   background-color: #0090e9;
 }
 
@@ -133,7 +141,7 @@ ol li {
   filter: invert(100%);
   width: 1em;
   height: 1em;
-  margin: 8px 0 0 0;
+  margin: 9px 0 0 0;
 }
 
 .obrazky-hry {
@@ -191,12 +199,20 @@ nav {
   background-color: #1cbb96;
 }
 
+.odkazy-pravidla__uvodni a:focus {
+  background-color: #1cbb96;
+}
+
 .odkazy-pravidla__zacithrat {
   font-size: 20px;
   background-color: #0197f6;
 }
 
 .odkazy-pravidla__zacithrat a:hover {
+  background-color: #0090e9;
+}
+
+.odkazy-pravidla__zacithrat a:focus {
   background-color: #0090e9;
 }
 
