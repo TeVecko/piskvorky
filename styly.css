@@ -245,6 +245,7 @@ nav {
   display: inline-block;
   color: #ffffff;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .odkazy-hra__uvodni {
@@ -297,6 +298,7 @@ nav {
   border: 1px solid black;
   padding: 0;
   background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
 }
 
 .policko:hover {
@@ -304,6 +306,19 @@ nav {
 }
 .policko:focus {
   background-color: rgba(255, 255, 255, 0.7);
+}
+
+.policko--circle {
+  background-image: url(Obrazky/circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3em;
+}
+.policko--cross {
+  background-image: url(Obrazky/cross.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3em;
 }
 
 /* --úzká obrazovka-- */
