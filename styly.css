@@ -241,7 +241,7 @@ nav {
 }
 
 .hraje {
-  margin: 22px 0 auto;
+  margin: 22px 0;
   display: inline-block;
   color: #ffffff;
   font-weight: bold;
@@ -283,7 +283,6 @@ nav {
 .odkazy-hra a {
   display: block;
   padding: 9px;
-  text-align: center;
 }
 
 .pole {
@@ -313,12 +312,23 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 3em;
+  animation: zvetseni 0.15s;
 }
 .policko--cross {
   background-image: url(Obrazky/cross.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 3em;
+  animation: zvetseni 0.15s;
+}
+
+@keyframes zvetseni {
+  0% {
+    background-size: 0;
+  }
+  100% {
+    background-size: 3em;
+  }
 }
 
 /* --úzká obrazovka-- */
@@ -359,5 +369,11 @@ nav {
   }
   figcaption {
     width: 270px;
+  }
+  .policko--circle {
+    background-size: 1.5em;
+  }
+  .policko--cross {
+    background-size: 1.5em;
   }
 }
